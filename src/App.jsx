@@ -6,9 +6,9 @@ import NotFound from "./pages/NotFound";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/todo">
       <Routes>
-        <Route path="/todo" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
 
 
