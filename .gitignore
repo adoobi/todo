@@ -11,6 +11,7 @@ node_modules
 docs
 dist
 *.local
+.firebase
 
 # Editor directories and files
 .vscode/*
